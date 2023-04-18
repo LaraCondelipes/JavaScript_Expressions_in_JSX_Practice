@@ -19,3 +19,21 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 );
+
+/*correcção da Prof:
+import React from "react";
+import ReactDOM from "react-dom";
+
+const name = "Angela";
+//criar o object Date();
+const currentDate = new Date();
+//invocou-se o método getFullYear(); no object currentDate e guardou-se na variável year, para ir buscar o ano corrente
+const year = currentDate.getFullYear();
+
+ReactDOM.render(
+<div>
+  <p>Created by {name}</p>
+  <p>Copyright {year}</p>
+</div>,
+document.getElementById("root")
+);
